@@ -9,10 +9,10 @@ setup:
 	fi
 
 install:
-	pip install -r requirements.txt
+	pip3 install -r requirements.txt
 
 run:
-	python bot.py
+	python3 bot.py
 
 clean:
 	rm -rf __pycache__
